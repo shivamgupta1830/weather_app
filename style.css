@@ -141,3 +141,9 @@ body {
 .location-not-found img {
   width: 60%;
 }
+@media screen and (max-width: 624px) {
+  .container {
+    max-width: 75%;
+  }
+}
+
