@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App </title>
+  <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="container">
+    <h1 class="title">Enter city name </h1>
+    <div class="header">
+      <div class="search-box">
+        <input type="text" placeholder="Enter your location" class="input-box">
+        <button id="searchBtn"><ion-icon name="search-outline"></ion-icon></i></button>
+      </div>
+    </div>
+    <div class="location-not-found">
+      <h1>Sorry, Location not found !!!</h1>
+      <img src="./images/404.png" alt="404 Error">
+    </div>
+    <div class="weather-body">
+      <img src="./images/sun.png" alt="weather Image" class="weather-img"/>
+      <div class="weather-box">
+        <p class="temprature">0<sup >℃</sup></p>
+        <p class="description">Description</p>
+      </div>
+
+
+      <div class="weather-details">
+          <div class="humidity"><ion-icon name="water-outline" class="icon"></ion-icon>
+              <div class="text">
+                <span id="humidity">0%</span>
+                <p>Humidity</p>
+              </div>
+          </div>
+
+
+          <div class="wind"><ion-icon name="paper-plane-outline" class="icon"></ion-icon>
+        <div class="text"><span id="wind-speed">0 Km/hr</span>
+        <p>Wind Speed</p></div></div>
+      </div>
+    </div>
+  </div>
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+<script src="https://kit.fontawesome.com/f79295b621.js" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="/script.js"></script>
+</body>
+</html>
